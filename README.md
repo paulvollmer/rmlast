@@ -1,2 +1,17 @@
 # rmlast
-cli to remove last x lines or chars from a text source
+cli to remove last x lines from a text source
+
+## Usage
+```
+Usage: rmlast <flags>
+
+Flags:
+  -e int
+    	remove last x lines from the text source (default 0)
+  -i string
+    	input file
+  -lb string
+    	linebreak (default "\n")
+  -version
+    	print version and exit
+```
