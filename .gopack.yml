@@ -1,0 +1,10 @@
+author: Paul Vollmer
+description: 'cli to remove last x lines from a text source'
+os: darwin linux windows
+includes:
+  - README.md
+  - LICENSE
+excludes:
+  - \.git
+script:
+  - go build
