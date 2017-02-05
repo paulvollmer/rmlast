@@ -15,3 +15,11 @@ Flags:
   -version
     	print version and exit
 ```
+
+## Development
+Make shure you have installed golang.
+```
+git clone git@github.com:paulvollmer/rmlast.git
+cd rmlast
+go build
+```
