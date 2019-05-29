@@ -1,4 +1,4 @@
-# rmlast
+# rmlast [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/paulvollmer/rmlast/blob/master/LICENSE)
 cli to remove last x lines from a text source
 
 ## Usage
