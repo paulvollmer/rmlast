@@ -8,9 +8,13 @@ import (
 	"strings"
 )
 
-const version = "0.1.0"
+var (
+	version = "dev"
+	commit  = "none"
+	date    = "unknown"
+)
 
-func usage()  {
+func usage() {
 	fmt.Printf("Usage: rmlast <flags>\n\n")
 	fmt.Println("Flags:")
 	flag.PrintDefaults()
@@ -25,8 +29,10 @@ func main() {
 	flag.Parse()
 
 	if *flagVersion {
-			fmt.Println(version)
-			os.Exit(0)
+		fmt.Printf("version:  %s\n", version)
+		fmt.Printf("commit:   %s\n", commit)
+		fmt.Printf("built at: %s\n", date)
+		os.Exit(0)
 	}
 
 	if *flagInput == "" {

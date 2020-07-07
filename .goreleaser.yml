@@ -1,0 +1,15 @@
+project_name: lit
+builds:
+  - binary: lit
+    dir: cmd/lit
+    goos:
+      - darwin
+      - freebsd
+      - linux
+      - netbsd
+      - openbsd
+      - solaris
+      - windows
+    goarch:
+      - amd64
+      - 386

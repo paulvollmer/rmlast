@@ -17,14 +17,10 @@ Flags:
 ```
 
 ## Development
+
 Make shure you have installed golang.
 ```
 git clone git@github.com:paulvollmer/rmlast.git
 cd rmlast
 go build
-```
-
-To release a new version install the [`gopack`](https://github.com/gobuild/gopack) tool and run:
-```
-gopack all
 ```
