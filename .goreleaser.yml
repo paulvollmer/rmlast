@@ -1,7 +1,6 @@
-project_name: lit
+project_name: rmlast
 builds:
-  - binary: lit
-    dir: cmd/lit
+  - binary: rmlast
     goos:
       - darwin
       - freebsd
